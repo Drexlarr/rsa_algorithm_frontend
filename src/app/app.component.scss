@@ -1,0 +1,67 @@
+body{
+    background-color: #422b34;
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #422b34;
+}
+
+
+.mainTitle{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .mainTitle {
+        font-size: 2rem;
+    }
+}
+
+.mainCard{
+    width: 40%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainCard {
+        width: 60%;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mainCard {
+        width: 90%;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
+
+.generalForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 1rem;
+    .publicKeyRow{
+        display: inherit;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+.publicKeyInput{
+    width: 49%;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+}
