@@ -1,4 +1,4 @@
 export class KeysResponse{
-    publicKey: string;
-    privateKey: string;
+    public_Key: string;
+    private_Key: string;
 }

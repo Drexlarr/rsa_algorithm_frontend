@@ -52,8 +52,8 @@ export class AppComponent implements OnInit {
 
   getKeys() {
     this.cryptService.generateKeys().subscribe((res) => {
-      this.privKey = res.privateKey;
-      this.pubKey = res.publicKey;
+      this.privKey = res.private_key;
+      this.pubKey = res.public_key;
     });
   }
 
